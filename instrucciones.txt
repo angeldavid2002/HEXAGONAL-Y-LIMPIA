@@ -1,0 +1,6 @@
+activar entorno
+    .\venv\Scripts\activate
+ejecutar app
+    python -m uvicorn app.interface.main:app --port 9000 --reload
+para probar
+	acceder al link y /docs
